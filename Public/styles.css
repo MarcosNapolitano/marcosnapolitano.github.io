@@ -613,7 +613,7 @@ h2{
     font-size: 3vh;
 }
 
-@media(max-width: 350px){
+@media(max-width: 375px){
     h2{
        font-size: 2.5vh;
     }
@@ -887,12 +887,10 @@ h2{
 
 }
 
-@media(max-width:350px){
+@media(max-width:370px){
 
     #svg4{
         top: 85vh;
     }
 
 }
-
-
