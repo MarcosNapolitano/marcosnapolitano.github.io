@@ -65,7 +65,8 @@ header{
 }
 
 #logo{
-    font-size: 2.1vh;
+    aspect-ratio: 1/1;
+    width: 10vh;
 }
 
 @media(max-width:650px){
@@ -75,7 +76,7 @@ header{
     }
 
     #logo{
-        font-size: 1.8vh;
+        width: 5vh;
     }
 }
 
@@ -86,9 +87,7 @@ header{
         font-size: 1.3vh;
     }
 
-    #logo{
-        font-size: 1.3vh;
-    }
+
 }
 
 
@@ -184,7 +183,7 @@ section{
 }
 
 .svg1{
-    background-image: url("./Assets/svg1.svg");
+    background-image: url("../Assets/svg1.svg");
 }
 
 
@@ -625,28 +624,28 @@ h2{
 #svg5{
     transform: rotate(-180deg);
     top:260vh;
-    background-image: url("./Assets/svg3.svg");
+    background-image: url("../Assets/svg3.svg");
 
 }
 
 #svg6{
     transform: rotate(180deg);
     top:315vh;
-    background-image: url("./Assets/svg4.svg");
+    background-image: url("../Assets/svg4.svg");
 
 }
 
 #svg7{
     transform: rotate(180deg);
     top:450vh;
-    background-image: url("./Assets/svg5.svg");
+    background-image: url("../Assets/svg5.svg");
 
 }
 
 #svg8{
     transform: rotate(180deg);
     top:370vh;
-    background-image: url("./Assets/svg6.svg");
+    background-image: url("../Assets/svg6.svg");
 
 }
 
@@ -662,7 +661,9 @@ h2{
     justify-content: center;
     background-color: var(--main-back-color2);
     border-radius: 50px;
+
 }
+
 
 @media(max-width:1024px){
 
@@ -734,21 +735,25 @@ h2{
 #project1, #project3{
     border: 1px solid var(--main-back-color2);
     margin-right: 30vw;
-    transition: border .3s
+    scale:100%;
+    transition: border .3s, scale .7s;
 }
 
 #project1:hover, #project3:hover{
     border: 1px solid var(--accent2);
+    scale: 102%;
 }
 
 #project2, #project4{
     border: 1px solid var(--main-back-color2);
     margin-left: 30vw;
-    transition: border .3s
+    scale: 100%;
+    transition: border .3s, scale .7s;
 }
 
 #project2:hover, #project4:hover{
     border: 1px solid var(--accent1);
+    scale: 102%;
 }
 
 @media(max-width:950px){
@@ -827,10 +832,18 @@ h2{
     position: absolute;
     aspect-ratio: 900/320;
     /* en 4k es top:540vh */
-    top:50vh;
+    top:40vh;
     z-index: 0;
-    background-image: url("./Assets/svg2.svg");
+    background-image: url("../Assets/svg2.svg");
 
+
+}
+
+@media(max-width:1150px){
+
+    #svg4{
+        top: 50vh;
+    }
 
 }
 

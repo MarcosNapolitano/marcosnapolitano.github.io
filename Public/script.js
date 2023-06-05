@@ -1,4 +1,4 @@
-import {esp, en} from "./db.js"
+import {esp, en} from "../db.js"
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -18,7 +18,9 @@ let translated = false
 function translate(){
 
     const lang = translated ? en : esp
+    const current_lan = translated ? "Español" : "English"
     const elements = document.querySelectorAll(".appear")
+    
 
     //make the elements disappear
     for(let i=0;i<elements.length;i++){
@@ -31,7 +33,11 @@ function translate(){
         for(let i in lang){
             if(i=="portfolio4") continue
             document.getElementById(i).innerHTML = lang[i]
+
         }
+
+        document.getElementById("target").innerHTML = current_lan
+
 
         //show them again
         for(let i=0;i<elements.length;i++){

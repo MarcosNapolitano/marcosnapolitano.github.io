@@ -82,9 +82,9 @@ export const esp = {
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio6  : `Demo en línea:
                     <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-    portfolio7  : "eCommerce Django",
-    portfolio8  : `Un sitio de subastas estilo eBay hecho con Django y Python como parte del curso CS50W de Harvard.
-                   Los datos son almacenados en una base SQL local y manejados con modelos Django`,
+    portfolio7  : "Django Markup Wiki",
+    portfolio8  : `Una aplicación similar a wikipedia con entradas en Markup. Dichas entradas pueden ser modificadas al momento utilizando idioma Markup.
+                    Posee una función de búsqueda y varios links entre entradas.`,
     portfolio9  : `Código Fuente:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio10 : `Demo en línea:
