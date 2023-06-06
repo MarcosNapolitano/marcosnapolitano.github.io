@@ -46,8 +46,6 @@ function translate(){
 
     },1000)
 
-    
-
     return translated = !translated
      
 }
