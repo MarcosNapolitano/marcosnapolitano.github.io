@@ -25,14 +25,14 @@ export const en = {
     portfolio5  : `Source Code:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio6  : `Live Demo:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcosnapolitano.github.io/api_center_front/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio7  : "Django Markdown Wiki",
     portfolio8  : `A mini Markdown wikipedia style app. Entries can be directly edited in Markdown Language and then submitted.
                    It has a search feature and links between entries.`,
     portfolio9  : `Source Code:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio10 : `Live Demo:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio11 : "React Calculator",
     portfolio12 : `A calculator made entirely in React. 
                    This is a great exercise for taking your coding skills to the next level.
@@ -40,14 +40,14 @@ export const en = {
     portfolio13  : `Source Code:
                    <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio14 : `Live Demo:
-                   <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                   <a href="https://marcosnapolitano.github.io/React_Calculator/><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio15 : "Random Quote Generator",
     portfolio16 : `One of my first React Apps, it takes a random quote from a list and makes a nice background transition. 
                    Simple yet stylish.`,
     portfolio17 : `Source Code:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio18 : `Live Demo:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcosnapolitano.github.io/random_quotes/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
 
     contact1 : "Let's Contact!",
     contact2 : "You can find me anytime in any of these places:",
@@ -81,14 +81,14 @@ export const esp = {
     portfolio5  : `Código Fuente:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio6  : `Demo en línea:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcosnapolitano.github.io/api_center_front/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio7  : "Django Markdown Wiki",
     portfolio8  : `Una aplicación similar a wikipedia con entradas en Markdown. Dichas entradas pueden ser modificadas al momento utilizando idioma Markdown.
                     Posee una función de búsqueda y varios links entre entradas.`,
     portfolio9  : `Código Fuente:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio10 : `Demo en línea:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio11 : "Calculadora React",
     portfolio12 : `Una calculadora hecha íntegramente en React. 
                    Este es un gran ejercicio para llevar tus habilidades de programador al próximo nivel.
@@ -96,14 +96,14 @@ export const esp = {
     portfolio13  : `Código Fuente:
                    <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio14 : `Demo en línea:
-                   <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                   <a href="https://marcosnapolitano.github.io/React_Calculator/><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio15 : "Generador de Citas Aleatorias",
     portfolio16 : `Una de mis primeras Apps en React, toma una cita de una lista y además realiza una transición suave con el fondo. 
                    Simple pero elegante`,
     portfolio17 : `Source Code:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio18 : `Live Demo:
-                    <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                    <a href="https://marcosnapolitano.github.io/random_quotes/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
 
     contact1 : "Contactemos!",
     contact2 : "Puedes encontrarme en cualquiera de estos lugares:",
