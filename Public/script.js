@@ -1,4 +1,4 @@
-import {esp, en} from "../db.js"
+import {esp, en} from "./db.js"
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {

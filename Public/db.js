@@ -26,9 +26,9 @@ export const en = {
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio6  : `Live Demo:
                     <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-    portfolio7  : "Django eCommerce",
-    portfolio8  : `A bidding eBay style website made with Django and Python as part of Harvard's CS50W course.
-                   Data is stored in a local SQL database and managed entirely with Django's models. `,
+    portfolio7  : "Django Markdown Wiki",
+    portfolio8  : `A mini Markdown wikipedia style app. Entries can be directly edited in Markdown Language and then submitted.
+                   It has a search feature and links between entries.`,
     portfolio9  : `Source Code:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio10 : `Live Demo:
@@ -82,8 +82,8 @@ export const esp = {
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio6  : `Demo en línea:
                     <a><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-    portfolio7  : "Django Markup Wiki",
-    portfolio8  : `Una aplicación similar a wikipedia con entradas en Markup. Dichas entradas pueden ser modificadas al momento utilizando idioma Markup.
+    portfolio7  : "Django Markdown Wiki",
+    portfolio8  : `Una aplicación similar a wikipedia con entradas en Markdown. Dichas entradas pueden ser modificadas al momento utilizando idioma Markdown.
                     Posee una función de búsqueda y varios links entre entradas.`,
     portfolio9  : `Código Fuente:
                     <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
