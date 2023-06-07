@@ -40,7 +40,7 @@ export const en = {
     portfolio13  : `Source Code:
                    <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio14 : `Live Demo:
-                   <a href="https://marcosnapolitano.github.io/React_Calculator/><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                   <a href="https://marcosnapolitano.github.io/React_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
     portfolio15 : "Random Quote Generator",
     portfolio16 : `One of my first React Apps, it takes a random quote from a list and makes a nice background transition. 
                    Simple yet stylish.`,
@@ -96,7 +96,8 @@ export const esp = {
     portfolio13  : `Código Fuente:
                    <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>`,
     portfolio14 : `Demo en línea:
-                   <a href="https://marcosnapolitano.github.io/React_Calculator/><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+                   <a href="https://marcosnapolitano.github.io/React_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`
+                   ,
     portfolio15 : "Generador de Citas Aleatorias",
     portfolio16 : `Una de mis primeras Apps en React, toma una cita de una lista y además realiza una transición suave con el fondo. 
                    Simple pero elegante`,
@@ -110,4 +111,3 @@ export const esp = {
     contact3 : "O escribirme un mail a:"
 
 }
-

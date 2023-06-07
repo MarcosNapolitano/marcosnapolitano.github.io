@@ -63,6 +63,7 @@ if(userLang[0]+userLang[1]==="es" && !override){
     }
 
     document.getElementById("target").innerHTML = "English"
+    translated = true
     override = true
 }
 
