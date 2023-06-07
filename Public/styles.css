@@ -837,7 +837,7 @@ h2{
     /* en 4k es top:540vh */
     width: 100%;
     bottom:0px;
-    z-index: 0;
+    z-index: -1;
     background-image: url("../Assets/svg2.svg");
 
 
