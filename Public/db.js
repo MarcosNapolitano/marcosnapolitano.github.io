@@ -4,16 +4,15 @@ export const en = {
                     <br>
                     I strive to produce the best of the best, always aiming for detailed perfection and 
                     constantly pushing myself to achieve better-quality solitions for you.
-                    Whatever your dream project is, let me be the one who helps you <i>nail</i> it!`,
+                    Whatever your dream project is, let me be the one who helps you nail it!`,
     introduction3 : `Techs I use:`,
 
 
     about1 : "About me",
-    about2 : "Web Developer from Argentina now based in Cádiz, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
-    about3 : `I am a super driven person when it comes to delivering great products. 
-              Offering high quality work is something that I am really passionate about since 
-              I am a strong believer that your craft should sell itself when seen. 
-              That is my reason to push myself every day into accomplishing new things and reaching into new territories.`,
+    about2 : "Web Developer based in Cádiz, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
+    about3 : `I'm Marcos, a passionate and creative web developer with 1.5 years of experience in designing and developing stunning, user-friendly websites and apps. I thrive on turning ideas into reality and crafting digital experiences that leave a lasting impression.<br><br>
+
+    I invite you to explore my portfolio and discover the projects that showcase my skills and expertise. If you have any kind of project in mind or would like to discuss a collaboration, please feel free to get in touch. I am excited about the possibility of bringing your ideas to life and creating a remarkable digital presence together.`,
 
 
     portfolio1  : "These are some of my projects!",
@@ -50,26 +49,26 @@ export const en = {
                     <a href="https://marcosnapolitano.github.io/random_quotes/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
 
     contact1 : "Let's Contact!",
-    contact2 : "You can find me anytime in any of these places:",
+    contact2 : "You can find me on any of these sites:",
     contact3 : "Or email me at:"
 }
 
 export const esp = {
 
-    introduction1 : `Marcos Napolitano<br>Web Developer<br>residiendo en España.`,
+    introduction1 : `Marcos Napolitano<br>Web Developer<br>en España.`,
     introduction2 : `Soy una de las personas más dedicadas con las que podrás trabajar. 
                      Me esfuerzo día a día para producir lo mejor, siempre aspirando 
                      a un gran nivel de detalle y constantemente empujandome a lograr 
-                     mejores resultados. Sea cual fuere su proyecto soñado, permítame ser el que lo ayude a <i>alcanzarlo</i>.`,
+                     mejores resultados. Sea cual fuere su proyecto soñado, permítame ser el que lo ayude a alcanzarlo.`,
     introduction3 : `Tecnologías que utilizo:`,
 
 
     about1 : "Acerca de",
-    about2 : "Web Developer de Argentina ahora viviendo en Cádiz, España. <i id='point' class='fa-solid fa-location-pin'></i>",
-    about3 : `Soy una persona de gran iniciativa cuando se trata de crear grandes productos. 
-              Soy un apasionado en ofrecer trabajos de alta calidad ya que creo fuertemente en
-              que tu creación debe venderse automáticamente cuando alguien la mira. 
-              Esa es mi razón para empujarme a mí mismo todos los días, lograr nuevas cosas y alcanzar nuevos territorios.`,
+    about2 : "Web Developer en Cádiz, España. <i id='point' class='fa-solid fa-location-pin'></i>",
+    about3 : `Soy Marcos y soy un web developer apasionado y creativo con 1.5 años de experiencia diseñando y creando impactantes, user-friendly websites y apps. Me encargo de convertir ideas en realidades y preparar experiencias digitales que dejen una impresión duradera.<br><br>
+
+
+    Te invito a explorar mi portfolio y descubrir los proyectos que muestran mis habilidades y conocimientos. Si posees algún tipo de proyecto en mente o si deseara conversar acerca de una colaboración, por favor siéntase libre de ponerse en contacto conmigo. Me gustaría tener la posibilidad de hacer de sus ideas una realidad y de crear una presencia digital notable juntos!`,
 
 
     portfolio1  : "Estos son algunos de mis Proyectos!",
