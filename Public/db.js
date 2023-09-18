@@ -9,7 +9,7 @@ export const en = {
 
   about1: "About me",
   about2:
-    "Web Developer based in Cádiz, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
+    "Web Developer based in Sevilla, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
   about3: `I'm Marcos, a passionate and creative web developer with 1.5 years of experience in designing and developing stunning, user-friendly websites and apps. I thrive on turning ideas into reality and crafting digital experiences that leave a lasting impression.<br><br>
 
     I invite you to explore my portfolio and discover the projects that showcase my skills and expertise. If you have any kind of project in mind or would like to discuss a collaboration, please feel free to get in touch. I am excited about the possibility of bringing your ideas to life and creating a remarkable digital presence together.`,
@@ -61,7 +61,7 @@ export const esp = {
 
   about1: "Acerca de",
   about2:
-    "Web Developer en Cádiz, España. <i id='point' class='fa-solid fa-location-pin'></i>",
+    "Web Developer en Sevilla, España. <i id='point' class='fa-solid fa-location-pin'></i>",
   about3: `Soy Marcos y soy un web developer apasionado y creativo con 1.5 años de experiencia diseñando y creando impactantes, user-friendly websites y apps. Me encargo de convertir ideas en realidades y preparar experiencias digitales que dejen una impresión duradera.<br><br>
 
 
