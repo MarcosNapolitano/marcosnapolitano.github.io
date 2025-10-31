@@ -1,314 +1,346 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Let's build a great project together!">
-    <meta name="author" content="Marcos Napolitano">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Let's build a great project together!" />
+    <meta name="author" content="Marcos Napolitano" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content='Marcos Napolitano | Web Developer'>
-    <meta property="og:description" content="Let's build a great project together!">
-    <meta property="og:url" content='https://marcosnapolitano.github.io/'>
-    <meta property="og:site_name" content="Marcos Napolitano">
-    <meta property="og:image" content="https://marcosnapolitano.github.io/Assets/thumbnail.jpg">
+    <meta property="og:title" content="Marcos Napolitano | Web Developer" />
+    <meta
+      property="og:description"
+      content="Let's build a great project together!"
+    />
+    <meta property="og:url" content="https://marcosnapolitano.github.io/" />
+    <meta property="og:site_name" content="Marcos Napolitano" />
+    <meta
+      property="og:image"
+      content="https://marcosnapolitano.github.io/Assets/thumbnail.jpg"
+    />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="627" />
     <meta property="og:image:type" content="image/jpeg" />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="marcosnapolitano.github.io">
-    <meta property="twitter:url" content="https://marcosnapolitano.github.io">
-    <meta name="twitter:title" content="Marcos Napolitano | Web Developer">
-    <meta name="twitter:description" content="Let's build a great project together!">
-    <meta name="twitter:image" content="https://marcosnapolitano.github.io/Assets/thumbnail.jpg">
-    
-    <link rel="stylesheet" href="Public/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="Assets/icon.ico">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="marcosnapolitano.github.io" />
+    <meta property="twitter:url" content="https://marcosnapolitano.github.io" />
+    <meta name="twitter:title" content="Marcos Napolitano | Web Developer" />
+    <meta
+      name="twitter:description"
+      content="Let's build a great project together!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://marcosnapolitano.github.io/Assets/thumbnail.jpg"
+    />
 
-    <script defer type="module" src="Public/script.js"></script>
+    <link rel="stylesheet" href="Public/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="Assets/icon.ico" />
 
-    <script src="https://kit.fontawesome.com/7eab90d447.js" crossorigin="anonymous"></script>
+    <script defer type="module" src="./Public/script.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/7eab90d447.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Marcos Napolitano | Web Developer</title>
-</head>
-    <body id="home">
-        <header>
-            <div id="logo_container">
-                <img src = "../Assets/Logo.png" alt="logo" id="logo">
+  </head>
+  <body id="home">
+    <header>
+      <div id="logo_container">
+        <a href="#home">
+          <img src="./Assets/Logo.png" alt="logo" id="logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a id="target" class="appear" href="#">Español</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button
+        class="mobile_hidden nav_button"
+        aria-label="Abrir Menú"
+        popovertarget="navbar_mobile"
+      >
+        ☰
+      </button>
+      <nav class="mobile_hidden" id="navbar_mobile" popover>
+        <ul class="navbar_mobile">
+          <li>
+            <a
+              id="target"
+              class="appear"
+              popovertarget="navbar_mobile"
+              popovertargetaction="hide"
+              href="#"
+              >Español</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              popovertarget="navbar_mobile"
+              popovertargetaction="hide"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              popovertarget="navbar_mobile"
+              popovertargetaction="hide"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              popovertarget="navbar_mobile"
+              popovertargetaction="hide"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home_section">
+      <div id="introduction_container">
+        <img id="me" alt="myself" src="./Assets/main_software_developer.webp" />
+        <div id="introduction">
+          <h1 id="introduction1" class="appear">
+            Marcos Napolitano
+            <span class="accent1">Software Developer</span>
+          </h1>
+          <p id="introduction2" class="appear">
+            I am one of the most dedicated people you will ever work with.
+            <br />
+            Let's build something great
+            <span class="accent_text">togheter!</span>
+          </p>
+          <h3 id="introduction3" class="appear">Techs I use:</h3>
+          <div class="logo_container" id="tech_container">
+            <img src="./Assets/tech.png" alt="logos tech" />
+          </div>
+          <a class="contact_button" href="#contact">Contact me!</a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="show">
+      <div id="svg3" class="svg1"></div>
+      <div id="about_container" class="hidden">
+        <img
+          id="about_me_mobile"
+          src="./Assets/main_software_developer.webp"
+          alt="about me"
+        />
+        <img id="about_me" src="./Assets/about_me.jpg" alt="about me" />
+        <div>
+          <h3 id="about2">
+            Web Developer based in Sevilla, Spain.
+            <i id="point" class="fa-solid fa-location-pin"></i>
+          </h3>
+          <p id="about3">
+            I'm Marcos, a passionate and creative web developer with 1.5 years
+            of experience in designing and developing stunning, user-friendly
+            websites and apps. I thrive on turning ideas into reality and
+            crafting digital experiences that leave a lasting impression.
+            <br />
+            <br />
+            I invite you to explore my portfolio and discover the projects that
+            showcase my skills and expertise. If you have any kind of project in
+            mind or would like to discuss a collaboration, please feel free to
+            get in touch. I am excited about the possibility of bringing your
+            ideas to life and creating a remarkable digital presence together.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="show">
+      <h2 id="portfolio1">These are some of my projects!</h2>
+      <div class="main-projects hidden">
+        <div id="project4" class="project_container">
+          <img
+            id="img_project4"
+            src="./Assets/django_auctions.jpg"
+            alt="project1"
+          />
+          <div>
+            <h3 id="portfolio15" class="card-title">Django Auction Site</h3>
+            <p id="portfolio16">
+              An e-bay style auction site with it's own SQL database. Users are
+              able to log in, create auctions and bid or comment on different
+              items.
+            </p>
+            <h5>Tech Stack:</h5>
+            <div id="tech_container1" class="project_tech">
+              <img src="./Assets/django.svg" alt="django" id="django" />
+              <i class="fa-brands fa-python" id="python"></i>
+              <i class="fa-brands fa-square-js" id="javascript"></i>
+              <i class="fa-brands fa-html5" id="html"></i>
+              <i class="fa-brands fa-css3-alt" id="css"></i>
             </div>
-            
-            <div id="links_container"">
-                <div id="target" class="appear">Español</div>
-                <div><a href="#home">Home</a></div>
-                <div><a href="#about">About</a></div>
-                <div><a href="#portfolio">Portfolio</a></div>
-                <div><a href="#contact">Contact</a></div>
+            <div id="tech_container2" class="project_tech">
+              <p id="portfolio17">
+                Source Code:
+                <a href="https://github.com/MarcosNapolitano/auction_site"
+                  ><i class="fa-brands fa-github" id="github"></i
+                ></a>
+              </p>
+              <p id="portfolio18">
+                Live Demo:
+                <a
+                  href="https://marcos-napolitano-auctions-site.up.railway.app/"
+                  ><i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    id="github"
+                  ></i
+                ></a>
+              </p>
             </div>
-            
-        </header>
-
-        <div id="svg1" class="svg1"></div>
-        
-        <section id="home_section">
-
-            <div id="introduction_container">
-
-                <img id="me" alt="myself" src="./Assets/Cuadrada.jpg" />
-            
-                <div id="introduction">
-                    <h1 id="introduction1" class="appear">Marcos Napolitano
-                        <br>
-                        Web Developer 
-                        <br>
-                        based in Spain.
-                    </h1>
-                    <p id="introduction2" class="appear">
-                        I am one of the most dedicated people you will ever work with. 
-                        <br>
-                        I strive to produce the best of the best, always aiming for detailed perfection and 
-                        constantly pushing myself to achieve better-quality solitions for you.
-                        Whatever your dream project is, let me be the one who helps you nail it!
-                    </p>
-                </div>
+          </div>
+        </div>
+        <div id="project1" class="project_container">
+          <img id="img_project1" src="./Assets/Cente.jpg" alt="project1" />
+          <div>
+            <h3 id="portfolio2" class="card-title">Api's Center</h3>
+            <p id="portfolio3">
+              This is a compilation of all my api's work. I decided to put them
+              all together and give them an actual UI so anyone can interact
+              with them. Some of them are connected to MongoDb databases.
+            </p>
+            <h5>Tech Stack:</h5>
+            <div id="tech_container1" class="project_tech">
+              <img
+                src="./Assets/express.svg"
+                alt="express"
+                class="img-brands"
+                id="express"
+              />
+              <img
+                src="./Assets/mongodb.svg"
+                alt="mongodb"
+                class="img-brands"
+                id="mongodb"
+              />
+              <i class="fa-brands fa-react" id="react"></i>
             </div>
-
-            <div id="home_social_links">
-                <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>
-                <a href="https://www.linkedin.com/in/marcosnapolitano"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-                <a href="https://discordapp.com/users/MarcosNapolitano#6798"><i class="fa-brands fa-discord" id="discord"></i></a>
+            <div id="tech_container2" class="project_tech">
+              <p id="portfolio5">
+                Source Code:
+                <a href="https://github.com/MarcosNapolitano/api_center_front"
+                  ><i class="fa-brands fa-github" id="github"></i
+                ></a>
+              </p>
+              <p id="portfolio6">
+                Live Demo:
+                <a href="https://marcosnapolitano.github.io/api_center_front/"
+                  ><i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    id="github"
+                  ></i
+                ></a>
+              </p>
             </div>
-
-            <h4 id="introduction3" class="appear">Techs I use:</h4>
-            <div id="tech_container1">
-                <i class="fa-brands fa-html5" id="html"></i>
-                <i class="fa-brands fa-css3-alt" id="css"></i>
-                <i class="fa-brands fa-sass" id="sass"></i>
-                <i class="fa-brands fa-bootstrap" id="bootstrap"></i>
-                <i class="fa-brands fa-square-js" id="javascript"></i>
-                <i class="fa-brands fa-react" id="react"></i>
+          </div>
+        </div>
+        <div id="project2" class="project_container">
+          <img id="img_project2" src="./Assets/wiki.jpg" alt="project1" />
+          <div>
+            <h3 id="portfolio7" class="card-title">Django Markdown Wiki</h3>
+            <p id="portfolio8">
+              A mini Markdown wikipedia style app. Entries can be directly
+              edited in Markdown Language and then submitted. It has a search
+              feature and links between entries.
+            </p>
+            <h5>Tech Stack:</h5>
+            <div id="tech_container1" class="project_tech">
+              <img src="./Assets/django.svg" alt="django" id="django" />
+              <i class="fa-brands fa-python" id="python"></i>
+              <i class="fa-brands fa-square-js" id="javascript"></i>
+              <i class="fa-brands fa-html5" id="html"></i>
+              <i class="fa-brands fa-css3-alt" id="css"></i>
             </div>
-            <div id="tech_container2">
-                <i class="fa-brands fa-node" id="node"></i>
-                <img src="./Assets/express.svg" alt="express" class="img-brands" id="express"></img>
-                <i class="fa-brands fa-python" id="python"></i>
-                <img src="./Assets/django.svg" alt="django" id="django"></img>
-                <img src="./Assets/mongodb.svg" alt="mongodb" class="img-brands" id="mongodb"></img>
-                <img src="./Assets/mysql.svg" alt="mysql" class="img-brands" id="mysql"></img>
-                <img src="./Assets/postgresql.svg" alt="postgresql" class="img-brands" id="postgresql"></img>
+            <div id="tech_container2" class="project_tech">
+              <p id="portfolio9">
+                Source Code:
+                <a href="https://github.com/MarcosNapolitano/markup_wiki"
+                  ><i class="fa-brands fa-github" id="github"></i
+                ></a>
+              </p>
+              <p id="portfolio10">
+                Live Demo:
+                <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"
+                  ><i
+                    class="fa-solid fa-arrow-up-right-from-square"
+                    id="github"
+                  ></i
+                ></a>
+              </p>
             </div>
-
-            <div id="svg2" class="svg1"></div>
-
-            <div id="svg3" class="svg1"></div>
-        </section>
-
-
-
-        <section id="about" class="hidden">
-
-            <div id="about_container">
-                <img src="./Assets/about_me.jpg" alt="about me" />
-                <div>
-                    <h5 id="about1">About me</h5>
-                    <h3 id="about2">Web Developer based in Sevilla, Spain. <i id="point" class="fa-solid fa-location-pin"></i></h3>
-
-                    <p id="about3"> 
-                        I'm Marcos, a passionate and creative web developer with 1.5 years of experience in designing and developing stunning, user-friendly websites and apps. I thrive on turning ideas into reality and crafting digital experiences that leave a lasting impression.
-
-                        I invite you to explore my portfolio and discover the projects that showcase my skills and expertise. If you have any kind of project in mind or would like to discuss a collaboration, please feel free to get in touch. I am excited about the possibility of bringing your ideas to life and creating a remarkable digital presence together.
-
-                    </p>
-                </div>
+          </div>
+        </div>
+      </div>
+      <div id="side-project">
+        <div id="project3" class="side_project_container">
+          <img id="img_project3" src="./Assets/calc.jpg" alt="project1" />
+          <div>
+            <h3 id="portfolio11" class="card-title">React Calculator</h3>
+            <p id="portfolio12">
+              A calculator made entirely in React. This is a great exercise for
+              taking your coding skills to the next level. I found it really fun
+              to do!
+            </p>
+            <h5>Tech Stack:</h5>
+            <div id="tech_container1" class="project_tech">
+              <i class="fa-brands fa-react" id="react"></i>
+              <i class="fa-brands fa-square-js" id="javascript"></i>
+              <i class="fa-brands fa-html5" id="html"></i>
+              <i class="fa-brands fa-css3-alt" id="css"></i>
             </div>
-
-        </section>
-
-        
-        <div id="svg5"></div>
-
-        <div id="svg6"></div>
-
-        <div id="svg7"></div>
-
-        <div id="svg8"></div>
-
-
-        <section id="portfolio" class="hidden">
-            <h2 id="portfolio1">These are some of my projects!</h2>
-
-
-            <div id="project4" class="project_container">
-
-                <img id="img_project4" src="./Assets/django_auctions.jpg" alt="project1">
-                <div>
-                    <h3 id="portfolio15">Django Auction Site</h3>
-                    <p id="portfolio16"> 
-                        An e-bay style auction site with it's own SQL database. Users are able to log in, create auctions and bid or comment on different items.
-                    </p>
-                    <h5>Tech Stack:</h5>
-
-                    <div id="tech_container1" class="project_tech">
-                        <img src="./Assets/django.svg" alt="django" id="django"></img>
-                        <i class="fa-brands fa-python" id="python"></i>
-                        <i class="fa-brands fa-square-js" id="javascript"></i>
-                        <i class="fa-brands fa-html5" id="html"></i>
-                        <i class="fa-brands fa-css3-alt" id="css"></i>
-                    </div>
-
-                    <div id="tech_container2" class="project_tech">
-                        <p id="portfolio17">
-                            Source Code:
-                             <a href="https://github.com/MarcosNapolitano/auction_site"><i class="fa-brands fa-github" id="github"></i></a>
-                        </p>
-    
-                        <p id="portfolio18">
-                            Live Demo:
-                             <a href="https://marcos-napolitano-auctions-site.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>
-                        </p>
-                    </div>
-                </div>
-
+            <div id="tech_container2" class="project_tech">
+              <p id="portfolio13">
+                Source Code:
+                <a href="https://github.com/MarcosNapolitano/React_Calculator"
+                  ><i class="fa-brands fa-github" id="github"></i
+                ></a>
+              </p>
             </div>
-
-            
-
-            <div id="project1" class="project_container">
-
-                <img id="img_project1" src="./Assets/Cente.jpg" alt="project1">
-                <div>
-                    <h3 id="portfolio2">Api's Center</h3>
-                    <p id="portfolio3"> 
-                        This is a compilation of all my api's work. 
-                        I decided to put them all together and give them an actual UI so anyone can interact with them.
-                        Some of them are connected to MongoDb databases.
-                    </p>
-                    <h5>Tech Stack:</h5>
-
-                    <div id="tech_container1" class="project_tech">
-                        <i class="fa-brands fa-node" id="node"></i>
-                        <img src="./Assets/express.svg" alt="express" class="img-brands" id="express"></img>
-                        <img src="./Assets/mongodb.svg" alt="mongodb" class="img-brands" id="mongodb"></img>
-                        <i class="fa-brands fa-react" id="react"></i>
-                        <i class="fa-brands fa-square-js" id="javascript"></i>
-                        <i class="fa-brands fa-html5" id="html"></i>
-                        <i class="fa-brands fa-css3-alt" id="css"></i>
-                    </div>
-
-                    <div id="tech_container2" class="project_tech">
-                        <p id="portfolio5">
-                            Source Code:
-                             <a href="https://github.com/MarcosNapolitano/api_center_front"><i class="fa-brands fa-github" id="github"></i></a>
-                        </p>
-    
-                        <p id="portfolio6">
-                            Live Demo:
-                             <a href="https://marcosnapolitano.github.io/api_center_front/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-    
-
-            <div id="project2" class="project_container">
-
-                <img id="img_project2" src="./Assets/wiki.jpg" alt="project1">
-                <div>
-                    <h3 id="portfolio7">Django Markdown Wiki</h3>
-                    <p id="portfolio8"> 
-                        A mini Markdown wikipedia style app. Entries can be directly edited in Markdown Language and then submitted.
-                        It has a search feature and links between entries.
-                    </p>
-                    <h5>Tech Stack:</h5>
-                    <div id="tech_container1" class="project_tech">
-                        <img src="./Assets/django.svg" alt="django" id="django"></img>
-                        <i class="fa-brands fa-python" id="python"></i>
-                        <i class="fa-brands fa-square-js" id="javascript"></i>
-                        <i class="fa-brands fa-html5" id="html"></i>
-                        <i class="fa-brands fa-css3-alt" id="css"></i>
-                    </div>
-
-                    <div id="tech_container2" class="project_tech">
-                        <p id="portfolio9">
-                            Source Code:
-                             <a href="https://github.com/MarcosNapolitano/markup_wiki"><i class="fa-brands fa-github" id="github"></i></a>
-                        </p>
-    
-                        <p id="portfolio10">
-                            Live Demo:
-                             <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>
-                        </p>
-                    </div>
-
-                    
-                </div>
-
-            </div>
-
-            <div id="project3" class="project_container">
-
-                <img id="img_project3" src="./Assets/calc.jpg" alt="project1">
-                <div>
-                    <h3 id="portfolio11">React Calculator</h3>
-                    <p id="portfolio12"> 
-                        A calculator made entirely in React. 
-                        This is a great exercise for taking your coding skills to the next level.
-                        I found it really fun to do!
-                    </p>
-                    <h5>Tech Stack:</h5>
-
-                    <div id="tech_container1" class="project_tech">
-                        <i class="fa-brands fa-react" id="react"></i>
-                        <i class="fa-brands fa-square-js" id="javascript"></i>
-                        <i class="fa-brands fa-html5" id="html"></i>
-                        <i class="fa-brands fa-css3-alt" id="css"></i>
-                    </div>
-
-                    <div id="tech_container2" class="project_tech">
-                        <p id="portfolio13">
-                            Source Code:
-                             <a href="https://github.com/MarcosNapolitano/React_Calculator"><i class="fa-brands fa-github" id="github"></i></a>
-                        </p>
-    
-                        <p id="portfolio14">
-                            Live Demo:
-                             <a href="https://marcosnapolitano.github.io/React_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-        </section>
-
-        <section id="contact" class="hidden">
-            <h2 id="contact1">Let's Contact!</h2>
-            <h3 id="contact2">You can find me on any of these sites:</h3>
-            
-            <div id="home_social_links">
-                <a href="https://github.com/MarcosNapolitano"><i class="fa-brands fa-github" id="github"></i></a>
-                <a href="https://www.linkedin.com/in/marcosnapolitano"><i class="fa-brands fa-linkedin" id="linkedin"></i></a>
-                <a href="https://discordapp.com/users/MarcosNapolitano#6798"><i class="fa-brands fa-discord" id="discord"></i></a>
-            </div>
-
-            <h5 id="contact3">Or email me at:</h5>
-            <a href="mailto:marcosnapolitano7@gmail.com"><i class="fa-solid fa-envelope"></i>marcosnapolitano7@gmail.com</a>
-            
-            <div id="svg4"></div>
-            
-        </section>
-
-
-
-
-        
-
-
-    </body>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="show">
+      <h2 id="contact1">Let's Contact!</h2>
+      <h3 id="contact2">You can find me on any of these sites:</h3>
+      <div id="home_social_links">
+        <a href="https://github.com/MarcosNapolitano"
+          ><i class="fa-brands fa-github" id="github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/marcosnapolitano"
+          ><i class="fa-brands fa-linkedin" id="linkedin"></i
+        ></a>
+        <a href="https://discordapp.com/users/MarcosNapolitano#6798"
+          ><i class="fa-brands fa-discord" id="discord"></i
+        ></a>
+      </div>
+      <h4 id="contact3">Or email me at:</h4>
+      <a href="mailto:marcosnapolitano7@gmail.com">
+        <i class="fa-solid fa-envelope"></i>marcosnapolitano7@gmail.com</a
+      >
+    </section>
+  </body>
 </html>

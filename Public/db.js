@@ -1,5 +1,5 @@
 export const en = {
-  introduction1: `Marcos Napolitano<br>Web Developer<br>based in Spain.`,
+  introduction1: `Marcos Napolitano<br>Software Developer<br>`,
   introduction2: `I am one of the most dedicated people you will ever work with. 
                     <br>
                     I strive to produce the best of the best, always aiming for detailed perfection and 
@@ -7,7 +7,6 @@ export const en = {
                     Whatever your dream project is, let me be the one who helps you nail it!`,
   introduction3: `Techs I use:`,
 
-  about1: "About me",
   about2:
     "Web Developer based in Sevilla, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
   about3: `I'm Marcos, a passionate and creative web developer with 1.5 years of experience in designing and developing stunning, user-friendly websites and apps. I thrive on turning ideas into reality and crafting digital experiences that leave a lasting impression.<br><br>
@@ -37,8 +36,6 @@ export const en = {
                    I found it really fun to do!`,
   portfolio13: `Source Code:
                    <a href="https://github.com/MarcosNapolitano/React_Calculator"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio14: `Live Demo:
-                   <a href="https://marcosnapolitano.github.io/React_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
   portfolio15: "Django Auction Site",
   portfolio16: `An e-bay style auction site with it's own SQL database. Users are able to log in, create auctions and bid or comment on different items.`,
   portfolio17: `Source Code:
@@ -52,14 +49,13 @@ export const en = {
 };
 
 export const esp = {
-  introduction1: `Marcos Napolitano<br>Web Developer<br>en España.`,
+  introduction1: `Marcos Napolitano<br>Software Developer<br>`,
   introduction2: `Soy una de las personas más dedicadas con las que podrás trabajar. 
                      Me esfuerzo día a día para producir lo mejor, siempre aspirando 
                      a un gran nivel de detalle y constantemente empujandome a lograr 
                      mejores resultados. Sea cual fuere su proyecto soñado, permítame ser el que lo ayude a alcanzarlo.`,
   introduction3: `Tecnologías que utilizo:`,
 
-  about1: "Acerca de",
   about2:
     "Web Developer en Sevilla, España. <i id='point' class='fa-solid fa-location-pin'></i>",
   about3: `Soy Marcos y soy un web developer apasionado y creativo con 1.5 años de experiencia diseñando y creando impactantes, user-friendly websites y apps. Me encargo de convertir ideas en realidades y preparar experiencias digitales que dejen una impresión duradera.<br><br>
@@ -90,8 +86,6 @@ export const esp = {
                    Realmente me pareció muy divertido hacerla!`,
   portfolio13: `Código Fuente:
                    <a href="https://github.com/MarcosNapolitano/React_Calculator"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio14: `Demo en línea:
-                   <a href="https://marcosnapolitano.github.io/React_Calculator/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
   portfolio15: "Sitio de Subastas Django",
   portfolio16: `Un sitio similar a e-bay con su propia base de datos SQL. Los usuarios pueden logearse, crear nuevos items, subastar y comentar en ellos.`,
   portfolio17: `Source Code:
