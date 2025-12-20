@@ -69,6 +69,26 @@
           <li><a href="#about">About</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
+          <div class="toggle">
+            <input id="switch" type="checkbox">
+            <label for="switch">
+
+              <!-- SUN -->
+              <svg class="icon sun" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="5"/>
+                <line x1="12" y1="1" x2="12" y2="4" stroke="#202020" stroke-width="2"/>
+                <line x1="12" y1="20" x2="12" y2="23" stroke="#202020" stroke-width="2"/>
+                <line x1="1" y1="12" x2="4" y2="12" stroke="#202020" stroke-width="2"/>
+                <line x1="20" y1="12" x2="23" y2="12" stroke="#202020" stroke-width="2"/>
+              </svg>
+
+              <!-- MOON -->
+              <svg class="icon moon" viewBox="0 0 24 24">
+                <path d="M21 12.79A9 9 0 0 1 11.21 3 7 7 0 1 0 21 12.79z"/>
+              </svg>
+
+            </label>
+          </div>
         </ul>
       </nav>
       <button
@@ -126,12 +146,12 @@
             <span class="accent1">Software Developer</span>
           </h1>
           <p id="introduction2" class="appear">
-            I am one of the most dedicated people you will ever work with.
-            <br />
-            Let's build something great
-            <span class="accent_text">togheter!</span>
+          I build efficient and scalable apps using React/Next.js, 
+          TypeScript, Python/Django and cloud tools. I specialize in interface 
+          optimization, jobs automation, APIs integration and turning ideas into 
+          functional products.
           </p>
-          <h3 id="introduction3" class="appear">Techs I use:</h3>
+          <h3 id="introduction3" class="appear">Technologies that I work with:</h3>
           <div class="logo_container" id="tech_container">
             <img src="./Assets/tech.png" alt="logos tech" />
           </div>
@@ -150,146 +170,119 @@
         <img id="about_me" src="./Assets/about_me.jpg" alt="about me" />
         <div>
           <h3 id="about2">
-            Web Developer based in Sevilla, Spain.
+            Modern Web Development for digital business.
             <i id="point" class="fa-solid fa-location-pin"></i>
           </h3>
           <p id="about3">
-            I'm Marcos, a passionate and creative web developer with 1.5 years
-            of experience in designing and developing stunning, user-friendly
-            websites and apps. I thrive on turning ideas into reality and
-            crafting digital experiences that leave a lasting impression.
-            <br />
-            <br />
-            I invite you to explore my portfolio and discover the projects that
-            showcase my skills and expertise. If you have any kind of project in
-            mind or would like to discuss a collaboration, please feel free to
-            get in touch. I am excited about the possibility of bringing your
-            ideas to life and creating a remarkable digital presence together.
+          I’m a Software Developer focused on building real-world solutions 
+          using JavaScript/TypeScript, React/Next.js, Python/Django, and databases like 
+          MongoDB and PostgreSQL. I like to understand what happens behind the code and 
+          why: performance, state management, PDF generation, integrations, or subtle 
+          UI/style bugs.
+          <br />
+          <br />
+          Before becoming a developer, I worked for several years in business 
+          administration and company management. That experience gave me a strong 
+          understanding of business needs and how small and medium-sized companies 
+          operate: processes, timing, costs, clients, and decision-making. Because of 
+          that background, I combine technical skills with valuable soft skills: clear 
+          communication, time management, prioritization, working under pressure, and 
+          focusing on viable solutions—not just elegant ones.
+          <br />
+          <br />
+          I aim to keep growing as a developer, contributing to projects where both 
+          technical quality and business understanding are valued.
           </p>
         </div>
       </div>
     </section>
     <section id="portfolio" class="show">
-      <h2 id="portfolio1">These are some of my projects!</h2>
+      <h2 id="portfolio1">These are some of my Projects!</h2>
       <div class="main-projects hidden">
         <div id="project4" class="project_container">
-          <img
+            <img
             id="img_project4"
             src="./Assets/online-catalog.webp"
             alt="project1"
-          />
-          <div>
-            <h3 id="portfolio15" class="card-title">Online Catalog</h3>
-            <p id="portfolio16">
-              An e-bay style auction site with it's own SQL database. Users are
-              able to log in, create auctions and bid or comment on different
-              items.
+            />
+          <div class="content">
+            <h3 id="portfolio2" class="card-title">Online Catalog</h3>
+            <p id="portfolio3">
+            Implemented for sellers doing door to door sells. It has it’s 
+            own credential system and customized admin panel. This catalog can be printed 
+            in PDF in case the seller is in a low coverage area and can’t access the app
             </p>
+          </div>
+          <div class="card-footer">
             <h5>Tech Stack:</h5>
             <div id="tech_container1" class="project_tech">
-              <img src="./Assets/django.svg" alt="django" id="django" />
-              <i class="fa-brands fa-python" id="python"></i>
-              <i class="fa-brands fa-square-js" id="javascript"></i>
-              <i class="fa-brands fa-html5" id="html"></i>
-              <i class="fa-brands fa-css3-alt" id="css"></i>
+              <img src="./Assets/techstack1.png" alt="next, typescript, mongodb, react" id="next" />
             </div>
             <div id="tech_container2" class="project_tech">
-              <p id="portfolio17">
-                Source Code:
-                <a href="https://github.com/MarcosNapolitano/auction_site"
-                  ><i class="fa-brands fa-github" id="github"></i
-                ></a>
-              </p>
-              <p id="portfolio18">
-                Live Demo:
-                <a
-                  href="https://marcos-napolitano-auctions-site.up.railway.app/"
-                  ><i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                    id="github"
-                  ></i
-                ></a>
-              </p>
+              <a id="portfolio4"
+                href="https://github.com/MarcosNapolitano/online-catalog">
+                <i class="fa-brands fa-github" id="github"></i>
+                Source Code
+              </a>
+              <a id="portfolio5"
+                href="https://online-catalog-production.up.railway.app">
+                <i class="fa-solid fa-arrow-up-right-from-square" id="github"></i>
+                Live Demo
+              </a>
             </div>
           </div>
         </div>
         <div id="project2" class="project_container">
-          <img id="img_project2" src="./Assets/todo-aqua.webp" alt="project1" />
-          <div>
-            <h3 id="portfolio7" class="card-title">Mini Sistema de Gestion</h3>
-            <p id="portfolio8">
-              A mini Markdown wikipedia style app. Entries can be directly
-              edited in Markdown Language and then submitted. It has a search
-              feature and links between entries.
+            <img id="img_project2" src="./Assets/todo-aqua.webp" alt="project1" />
+          <div class="content">
+            <h3 id="portfolio6" class="card-title">CRM and Quotation System</h3>
+            <p id="portfolio7">
+            Utilized for creating quotes, storing clients and calls record.
+            This app was specifically designed for a pool repairment company.
+            All different quotations can be printed into a template Word file.
             </p>
+          </div>
+          <div class="card-footer">
             <h5>Tech Stack:</h5>
             <div id="tech_container1" class="project_tech">
-              <img src="./Assets/django.svg" alt="django" id="django" />
-              <i class="fa-brands fa-python" id="python"></i>
-              <i class="fa-brands fa-square-js" id="javascript"></i>
-              <i class="fa-brands fa-html5" id="html"></i>
-              <i class="fa-brands fa-css3-alt" id="css"></i>
+              <img src="./Assets/techstack2.png" alt="Python, PostgreSQL" id="next" />
             </div>
             <div id="tech_container2" class="project_tech">
-              <p id="portfolio9">
-                Source Code:
-                <a href="https://github.com/MarcosNapolitano/markup_wiki"
-                  ><i class="fa-brands fa-github" id="github"></i
-                ></a>
-              </p>
-              <p id="portfolio10">
-                Live Demo:
-                <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"
-                  ><i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                    id="github"
-                  ></i
-                ></a>
-              </p>
+              <a id="portfolio8"
+                href="https://github.com/MarcosNapolitano/sistema_todoaqua" >
+                <i class="fa-brands fa-github" id="github"></i>
+                Source Code
+              </a>
             </div>
           </div>
         </div>
         <div id="project1" class="project_container">
-          <img id="img_project1" src="./Assets/api-center.webp" alt="project1" />
-          <div>
-            <h3 id="portfolio2" class="card-title">Api's Center</h3>
-            <p id="portfolio3">
-              This is a compilation of all my api's work. I decided to put them
-              all together and give them an actual UI so anyone can interact
-              with them. Some of them are connected to MongoDb databases.
+            <img id="img_project1" src="./Assets/api-center.webp" alt="project1" />
+          <div class="content">
+            <h3 id="portfolio10" class="card-title">Api's Center</h3>
+            <p id="portfolio11">
+            This is a compilation of several APIs I previously worked on.
+            I joined them and designed a UI in order to making them available to the
+            public as microservices. Some of them store data in a MongoDB database.
             </p>
+          </div>
+          <div class="card-footer">
+
             <h5>Tech Stack:</h5>
             <div id="tech_container1" class="project_tech">
-              <img
-                src="./Assets/express.svg"
-                alt="express"
-                class="img-brands"
-                id="express"
-              />
-              <img
-                src="./Assets/mongodb.svg"
-                alt="mongodb"
-                class="img-brands"
-                id="mongodb"
-              />
-              <i class="fa-brands fa-react" id="react"></i>
+              <img src="./Assets/techstack3.png" alt="Express, MongoDB, React" id="next" />
             </div>
             <div id="tech_container2" class="project_tech">
-              <p id="portfolio5">
-                Source Code:
-                <a href="https://github.com/MarcosNapolitano/api_center_front"
-                  ><i class="fa-brands fa-github" id="github"></i
-                ></a>
-              </p>
-              <p id="portfolio6">
-                Live Demo:
-                <a href="https://marcosnapolitano.github.io/api_center_front/"
-                  ><i
-                    class="fa-solid fa-arrow-up-right-from-square"
-                    id="github"
-                  ></i
-                ></a>
-              </p>
+              <a id="portfolio12"
+                href="https://github.com/MarcosNapolitano/api_center_front">
+                <i class="fa-brands fa-github" id="github"></i>
+                Source Code
+              </a>
+              <a id="portfolio13"
+                href="https://marcos-napolitano-apicenter.up.railway.app">
+                <i class="fa-solid fa-arrow-up-right-from-square" id="github"></i>
+                Live Demo
+              </a>
             </div>
           </div>
         </div>
@@ -298,26 +291,29 @@
         <div id="project3" class="side_project_container">
           <img id="img_project3" src="./Assets/vr-world.webp" alt="project1" />
           <div>
-            <h3 id="portfolio11" class="card-title">React Calculator</h3>
-            <p id="portfolio12">
-              A calculator made entirely in React. This is a great exercise for
-              taking your coding skills to the next level. I found it really fun
-              to do!
+            <h3 id="sideproject1" class="card-title">VR World</h3>
+            <p id="sideproject2">
+            Scripting of a world made for the game VRChat, mainly for 
+            interactivity purposes. Dinamic cameras, private rooms, admin panels, 
+            moderation tools, even it’s own game of spanish cards using C# and VRchat’s
+            UDON library among others tools. More than 9000 users have visited this world,
+            creating an in-game community and hosting several events.
             </p>
             <h5>Tech Stack:</h5>
             <div id="tech_container1" class="project_tech">
-              <i class="fa-brands fa-react" id="react"></i>
-              <i class="fa-brands fa-square-js" id="javascript"></i>
-              <i class="fa-brands fa-html5" id="html"></i>
-              <i class="fa-brands fa-css3-alt" id="css"></i>
+              <img src="./Assets/techstack4.png" alt="Unity, C#" id="next" />
             </div>
             <div id="tech_container2" class="project_tech">
-              <p id="portfolio13">
-                Source Code:
-                <a href="https://github.com/MarcosNapolitano/React_Calculator"
-                  ><i class="fa-brands fa-github" id="github"></i
-                ></a>
-              </p>
+              <a id="sideproject3"
+                href="https://github.com/MarcosNapolitano/eska_world">
+                <i class="fa-brands fa-github" id="github"></i >
+                Source Code
+              </a>
+              <a id="sideproject4"
+                 href="https://vrchat.com/home/launch?worldId=wrld_e7c7135b-9568-4597-a1fe-cdbc8746f3a4">
+                <i class="fa-solid fa-arrow-up-right-from-square" id="github"></i>
+                Live Demo
+              </a>
             </div>
           </div>
         </div>
@@ -326,51 +322,52 @@
         <div id="project3" class="side_project_container">
           <img id="img_project3" src="./Assets/django-auction.webp" alt="project1" />
           <div>
-            <h3 id="portfolio11" class="card-title">React Calculator</h3>
-            <p id="portfolio12">
-              A calculator made entirely in React. This is a great exercise for
-              taking your coding skills to the next level. I found it really fun
-              to do!
+            <h3 id="sideproject5" class="card-title">Django Auction Site</h3>
+            <p id="sideproject6">
+              An e-bay style auction site with it's own SQL database. Users are
+              able to log in, create auctions and bid or comment on different
+              items.
             </p>
             <h5>Tech Stack:</h5>
             <div id="tech_container1" class="project_tech">
-              <i class="fa-brands fa-react" id="react"></i>
-              <i class="fa-brands fa-square-js" id="javascript"></i>
-              <i class="fa-brands fa-html5" id="html"></i>
-              <i class="fa-brands fa-css3-alt" id="css"></i>
+              <img src="./Assets/techstack5.png" alt="Python, Django" id="next" />
             </div>
             <div id="tech_container2" class="project_tech">
-              <p id="portfolio13">
-                Source Code:
-                <a href="https://github.com/MarcosNapolitano/React_Calculator"
-                  ><i class="fa-brands fa-github" id="github"></i
-                ></a>
-              </p>
+              <a id="sideproject7"
+                href="https://github.com/MarcosNapolitano/auction_site" >
+                <i class="fa-brands fa-github" id="github"></i >
+                Source Code
+              </a>
+              <a id="sideproject8"
+                 href="https://marcos-napolitano-auctions-site.up.railway.app" >
+                <i class="fa-solid fa-arrow-up-right-from-square" id="github"></i>
+                Live Demo
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section id="contact" class="show">
-      <h2 id="contact1">Let's Contact!</h2>
+      <h2 id="contact1">Let’s get in touch!</h2>
       <div class="contact-me-container">
         <div class="contact-me-info">
           <h3 id="contact2">You can find me on any of these sites:</h3>
           <div id="home_social_links">
-            <a href="https://github.com/MarcosNapolitano"
-              ><i class="fa-brands fa-github" id="github"></i
-              ></a>
-            <a href="https://www.linkedin.com/in/marcosnapolitano"
-              ><i class="fa-brands fa-linkedin" id="linkedin"></i
-              ></a>
-            <a href="https://discordapp.com/users/MarcosNapolitano#6798"
-              ><i class="fa-brands fa-discord" id="discord"></i
-              ></a>
+            <a href="https://github.com/MarcosNapolitano">
+              <i class="fa-brands fa-github" id="github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/marcosnapolitano">
+              <i class="fa-brands fa-linkedin" id="linkedin"></i>
+            </a>
+            <a href="https://discordapp.com/users/MarcosNapolitano#6798">
+              <i class="fa-brands fa-discord" id="discord"></i>
+            </a>
           </div>
           <h4 id="contact3">Or email me at:</h4>
           <a href="mailto:marcosnapolitano7@gmail.com">
-            <i class="fa-solid fa-envelope"></i>marcosnapolitano7@gmail.com</a
-          >
+            <i class="fa-solid fa-envelope"></i>marcosnapolitano7@gmail.com
+          </a >
         </div>
         <img class="contact-me-pic" src="./Assets/contact-me.png" alt="contact-me" />
       </div>

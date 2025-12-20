@@ -1,97 +1,123 @@
 export const en = {
   introduction1: `Marcos Napolitano<br>Software Developer<br>`,
-  introduction2: `I am one of the most dedicated people you will ever work with. 
-                    <br>
-                    I strive to produce the best of the best, always aiming for detailed perfection and 
-                    constantly pushing myself to achieve better-quality solitions for you.
-                    Whatever your dream project is, let me be the one who helps you nail it!`,
-  introduction3: `Techs I use:`,
+  introduction2: `I build efficient and scalable apps using React/Next.js, 
+  TypeScript, Python/Django and cloud tools. I specialize in interface 
+  optimization, jobs automation, APIs integration and turning ideas into 
+  functional products.`,
+  introduction3: `Technologies that I work with:`,
 
   about2:
-    "Web Developer based in Sevilla, Spain. <i id='point' class='fa-solid fa-location-pin'></i>",
-  about3: `I'm Marcos, a passionate and creative web developer with 1.5 years of experience in designing and developing stunning, user-friendly websites and apps. I thrive on turning ideas into reality and crafting digital experiences that leave a lasting impression.<br><br>
+    "Modern Web Development for digital business. <i id='point' class='fa-solid fa-location-pin'></i>",
+  about3: `I’m a Software Developer focused on building real-world solutions 
+  using JavaScript/TypeScript, React/Next.js, Python/Django, and databases like 
+  MongoDB and PostgreSQL. I like to understand what happens behind the code and 
+  why: performance, state management, PDF generation, integrations, or subtle 
+  UI/style bugs.
+  <br>
+  <br>
+  Before becoming a developer, I worked for several years in business 
+  administration and company management. That experience gave me a strong 
+  understanding of business needs and how small and medium-sized companies 
+  operate: processes, timing, costs, clients, and decision-making. Because of 
+  that background, I combine technical skills with valuable soft skills: clear 
+  communication, time management, prioritization, working under pressure, and 
+  focusing on viable solutions—not just elegant ones.
+  <br>
+  <br>
+  I aim to keep growing as a developer, contributing to projects where both 
+  technical quality and business understanding are valued.`,
 
-    I invite you to explore my portfolio and discover the projects that showcase my skills and expertise. If you have any kind of project in mind or would like to discuss a collaboration, please feel free to get in touch. I am excited about the possibility of bringing your ideas to life and creating a remarkable digital presence together.`,
+  portfolio1: "These are some of my Projects!",
 
-  portfolio1: "These are some of my projects!",
-  portfolio2: "Api's Center",
-  portfolio3: `This is a compilation of all my api's work. 
-                   I decided to put them all together and give them an actual UI so anyone can interact with them.
-                   Some of them are connected to MongoDb databases.`,
-  portfolio4: "Tech Stack:",
-  portfolio5: `Source Code:
-                    <a href="https://github.com/MarcosNapolitano/api_center_front"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio6: `Live Demo:
-                    <a href="https://marcosnapolitano.github.io/api_center_front/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-  portfolio7: "Django Markdown Wiki",
-  portfolio8: `A mini Markdown wikipedia style app. Entries can be directly edited in Markdown Language and then submitted.
-                   It has a search feature and links between entries.`,
-  portfolio9: `Source Code:
-                    <a href="https://github.com/MarcosNapolitano/markdown_wiki"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio10: `Live Demo:
-                    <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-  portfolio11: "React Calculator",
-  portfolio12: `A calculator made entirely in React. 
-                   This is a great exercise for taking your coding skills to the next level.
-                   I found it really fun to do!`,
-  portfolio13: `Source Code:
-                   <a href="https://github.com/MarcosNapolitano/React_Calculator"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio15: "Django Auction Site",
-  portfolio16: `An e-bay style auction site with it's own SQL database. Users are able to log in, create auctions and bid or comment on different items.`,
-  portfolio17: `Source Code:
-                    <a href="https://github.com/MarcosNapolitano/auction_site"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio18: `Live Demo:
-                    <a href="https://marcos-napolitano-auctions-site.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+  portfolio2: "Online Catalog",
+  portfolio3: `Implemented for sellers doing door to door sells. It has it’s 
+  own credential system and customized admin panel. This catalog can be printed 
+  in PDF in case the seller is in a low coverage area and can’t access the app`, 
 
-  contact1: "Let's Contact!",
-  contact2: "You can find me on any of these sites:",
+  portfolio6: "CRM and Quotation System",
+  portfolio7: `Utilized for creating quotes, storing clients and calls record.
+  This app was specifically designed for a pool repairment company.
+  All different quotations can be printed into a template Word file.`,
+
+  portfolio10: "Api Front End",
+  portfolio11: `This is a compilation of several APIs I previously worked on.
+  I joined them and designed a UI in order to making them available to the
+  public as microservices. Some of them store data in a MongoDB database.`,
+
+  sideproject1: "VR World",
+  sideproject2: `Scripting of a world made for the game VRChat, mainly for 
+  interactivity purposes. Dinamic cameras, private rooms, admin panels, 
+  moderation tools, even it’s own game of spanish cards using C# and VRchat’s
+  UDON library among others tools. More than 9000 users have visited this world,
+  creating an in-game community and hosting several events.`,
+
+  sideproject5: "Sitio de Subastas Django",
+  sideproject6: `An e-bay style auction site with it's own SQL database. Users 
+  are able to log in, create auctions and bid or comment on different items.`,
+
+  contact1: "Let’s get in touch!",
+  contact2: "You can find me in any of these sites:",
   contact3: "Or email me at:",
 };
 
 export const esp = {
   introduction1: `Marcos Napolitano<br>Software Developer<br>`,
-  introduction2: `Soy una de las personas más dedicadas con las que podrás trabajar. 
-                     Me esfuerzo día a día para producir lo mejor, siempre aspirando 
-                     a un gran nivel de detalle y constantemente empujandome a lograr 
-                     mejores resultados. Sea cual fuere su proyecto soñado, permítame ser el que lo ayude a alcanzarlo.`,
+  introduction2: `Creo aplicaciones eficientes y escalables con React/Next.js, 
+  TypeScript, Python/Django y herramientas cloud. Me especializo en optimizar 
+  interfaces, automatizar tareas, integrar APIs y convertir ideas en productos 
+  funcionales.`,
   introduction3: `Tecnologías que utilizo:`,
 
   about2:
-    "Web Developer en Sevilla, España. <i id='point' class='fa-solid fa-location-pin'></i>",
-  about3: `Soy Marcos y soy un web developer apasionado y creativo con 1.5 años de experiencia diseñando y creando impactantes, user-friendly websites y apps. Me encargo de convertir ideas en realidades y preparar experiencias digitales que dejen una impresión duradera.<br><br>
-
-
-    Te invito a explorar mi portfolio y descubrir los proyectos que muestran mis habilidades y conocimientos. Si posees algún tipo de proyecto en mente o si deseara conversar acerca de una colaboración, por favor siéntase libre de ponerse en contacto conmigo. Me gustaría tener la posibilidad de hacer de sus ideas una realidad y de crear una presencia digital notable juntos!`,
+    "Desarrollo web moderno para negocios digitales. <i id='point' class='fa-solid fa-location-pin'></i>",
+  about3: `Soy un Software Developer orientado a construir soluciones reales 
+  utilizando JavaScript/TypeScript, React/Next.js, Python/Django y bases de 
+  datos como MongoDB y PostgreSQL. Me gusta entender qué ocurre detrás del 
+  código y por qué: rendimiento, manejo de estado, generación de PDFs, 
+  integraciones o bugs sutiles en UI/estilos. 
+  <br>
+  <br>
+  Antes de dedicarme al desarrollo, trabajé varios años en administración y 
+  gestión de empresas. Esa experiencia me dio visión de negocio y el contexto 
+  real de cómo funcionan las pymes: procesos, tiempos, costos, clientes y toma 
+  de decisiones. Gracias a ese recorrido, combino habilidades técnicas con soft 
+  skills valiosas: comunicación clara, gestión del tiempo, capacidad de 
+  priorizar, trabajar bajo presión y buscar soluciones viables, no solo 
+  elegantes. 
+  <br>
+  <br>
+  Busco seguir creciendo como desarrollador contribuyendo en 
+  proyectos donde se valoren tanto la calidad técnica como la comprensión del 
+  negocio.`,
 
   portfolio1: "Estos son algunos de mis Proyectos!",
-  portfolio2: "Centro de Api's",
-  portfolio3: `Esta es una recopilación de todo mi trabajo de Api's. 
-                   Decidí unirlas todas y crearles una UI para que todos puedan interactuar con ellas.
-                   Algunas están conectadas a bases de datos MongoDB.`,
-  portfolio4: "Tech Stack:",
-  portfolio5: `Código Fuente:
-                    <a href="https://github.com/MarcosNapolitano/api_center_front"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio6: `Demo en línea:
-                    <a href="https://marcosnapolitano.github.io/api_center_front/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-  portfolio7: "Django Markdown Wiki",
-  portfolio8: `Una aplicación similar a wikipedia con entradas en Markdown. Dichas entradas pueden ser modificadas al momento utilizando idioma Markdown.
-                    Posee una función de búsqueda y varios links entre entradas.`,
-  portfolio9: `Código Fuente:
-                    <a href="https://github.com/MarcosNapolitano/markdown_wiki"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio10: `Demo en línea:
-                    <a href="https://marcos-napolitano-markup-wiki.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
-  portfolio11: "Calculadora React",
-  portfolio12: `Una calculadora hecha íntegramente en React. 
-                   Este es un gran ejercicio para llevar tus habilidades de programador al próximo nivel.
-                   Realmente me pareció muy divertido hacerla!`,
-  portfolio13: `Código Fuente:
-                   <a href="https://github.com/MarcosNapolitano/React_Calculator"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio15: "Sitio de Subastas Django",
-  portfolio16: `Un sitio similar a e-bay con su propia base de datos SQL. Los usuarios pueden logearse, crear nuevos items, subastar y comentar en ellos.`,
-  portfolio17: `Source Code:
-                    <a href="https://github.com/MarcosNapolitano/auction_site"><i class="fa-brands fa-github" id="github"></i></a>`,
-  portfolio18: `Live Demo:
-                    <a href="https://marcos-napolitano-auctions-site.up.railway.app/"><i class="fa-solid fa-arrow-up-right-from-square" id="github"></i></a>`,
+
+  portfolio2: "Catálogo Online",
+  portfolio3: `Catalogo de productos utilizado por vendedores en ventas puerta 
+  a puerta. Cuenta con sistema de credenciales y admin panel customizado. El 
+  catálogo puede imprimirse en PDF por si el vendedor cuenta con poca señal.`, 
+
+  portfolio6: "Sistema de Gestión Todo Aqua",
+  portfolio7: `Sistema de creación de presupuestos, clientes y llamadas hecho
+  a medida para una empresa de detección de fugas de agua y reparaciones.
+  Permite imprimir dichos presupuestos en un archivo Word.`,
+
+  portfolio10: "Api Front End",
+  portfolio11: `Esta es una recopilación de varias Api's a las que junté y 
+  creé una UI para que todos puedan interactuar con ellas. 
+  Algunas están conectadas a bases de datos MongoDB.`,
+
+  sideproject1: "Mundo de Realidad Virtual",
+  sideproject2: `Creado de scripts que brindan interactividad a un mundo creado 
+  para el juego VRChat. Programación de cámaras dinámicas, cuartos privados, 
+  paneles de administración, herramientas de moderación e incluso un juego de 
+  cartas funcional con C# utilizando la librería UDON de VRchat entre otras
+  herramientas. Más de 9000 usuarios han visitado el mundo además de haber dado 
+  nacimiento a una comunidad in-game y haber sido host de múltiples eventos.`,
+
+  sideproject5: "Sitio de Subastas Django",
+  sideproject6: `Un sitio similar a e-bay con su propia base de datos SQL. Los 
+  usuarios pueden logearse, crear nuevos items, subastar y comentar en ellos.`,
 
   contact1: "Contactemos!",
   contact2: "Puedes encontrarme en cualquiera de estos lugares:",

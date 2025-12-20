@@ -22,17 +22,19 @@
   --accent4: #9F2525;
   --accent5: #5667FE;
   --button-color: hsl(271, 36%, 17%);
+  --icon-sun: #202020;
+  --icon-moon: #d9d9d9;
 
   /* light mode */
 
   --main-font-light: #213547;
-  --main-back-color-light: #ffffff;
+  --main-back-color-light1: #eee;
+  --main-back-color-light2: #d9d9d9;
   --link-hover-light: #747bff;
   --button-color-light: #f9f9f9;
   --backdrop-light: rgba(0, 0, 0, 0.07);
 
   color: var(--main-font);
-  background-image: linear-gradient(var(--main-back-color1), var(--main-back-color2));
   scroll-behavior: smooth;
 
   font-synthesis: none;
@@ -56,7 +58,7 @@ h2 {
   text-align: center;
   z-index: 1;
   margin-bottom: 1rem;
-  background: -webkit-linear-gradient(270deg, #ffffff 20%, #0095FF 100%);
+  background: -webkit-linear-gradient(270deg, #ffffff 20%, #0095ff 100%);
   background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -150,8 +152,12 @@ header {
   min-height: 100%;
   padding: 0;
   display: flex;
-  background-color: var(--main-back-color1);
+  }
+
+header.light{
+  background-color: #5e5e5e;
 }
+
 
 .navbar>li {
   list-style: none;
@@ -261,6 +267,95 @@ header {
     align-items: center;
     justify-content: center;
   }
+}
+
+body {
+  transition: background .3s;
+}
+
+body.light {
+  background: linear-gradient(var(--main-back-color-light1), var(--main-back-color-light2));
+}
+
+.lightTitle{
+  background: -webkit-linear-gradient(270deg, #202020 20%, #0095ff 100%);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle label {
+  width: 60px;
+  height: 32px;
+  background: #444;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  transition: background .3s;
+}
+
+.toggle label::after {
+  content: "";
+  width: 26px;
+  height: 26px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  transition: .3s;
+}
+
+/* change bg and knob position */
+.toggle input:checked+label {
+  background: #ccc;
+}
+
+.toggle input:checked+label::after {
+  transform: translateX(28px);
+}
+
+/* ICONS */
+.icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 4px;
+  pointer-events: none;
+  transition: opacity .3s;
+}
+
+/* sun icon left */
+.sun {
+  left: 6px;
+  opacity: 1;
+  fill: var(--icon-sun);
+}
+
+.toggle input:checked+label .sun {
+  opacity: .2;
+}
+
+/* moon icon right */
+.moon {
+  right: 6px;
+  opacity: .2;
+  fill: var(--icon-moon);
+}
+
+.toggle input:checked+label .moon {
+  opacity: .2;
 }
 
 /* --------------------------------------- section 1 --------------------------------------- */
@@ -392,7 +487,6 @@ h1 {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    text-align: justify;
   }
 
   h1 {
@@ -558,7 +652,7 @@ h1 {
 
 .main-projects {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   padding: 5%;
   justify-content: center;
   gap: 2vw;
@@ -590,7 +684,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
+  gap: 3rem;
+  font-size: 1.2rem;
 }
 
 .project_tech>#django {
@@ -633,7 +728,11 @@ h1 {
   z-index: 1;
   margin: 0 auto;
   display: flex;
-  width: min(50%, 900px);
+  width: min(90%, 1200px);
+}
+
+.card-footer {
+  margin-top: auto;
 }
 
 #side-project-2>div.side_project_container {
@@ -641,7 +740,7 @@ h1 {
 }
 
 .side_project_container>div {
-  padding: 5%;
+  padding: 2%;
   margin: auto;
 }
 
@@ -707,7 +806,7 @@ h1 {
   }
 
   .side_project_container,
-  #side-project-2 > div.side_project_container {
+  #side-project-2>div.side_project_container {
     flex-direction: column;
     width: 100%;
   }
@@ -743,8 +842,7 @@ h1 {
 }
 
 #contact {
-  margin-top: 25vh;
-  min-height: 100dvh;
+  min-height: 120dvh;
   position: relative;
   z-index: 1;
   display: flex;
@@ -757,7 +855,7 @@ h1 {
 }
 
 .contact-me-container {
-  margin-top: 5%;
+  margin: 5% auto;
   display: flex;
   background-color: #CC4C40;
   border-radius: 2rem;
@@ -782,6 +880,7 @@ h1 {
   position: absolute;
   right: 0;
   top: -60%;
+  z-index: 1;
 }
 
 @media(max-width:800px) {
@@ -810,7 +909,8 @@ h1 {
     width: 60%;
   }
 
-  html, body{
+  html,
+  body {
     overflow-x: hidden;
   }
 }
